@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "quartz-themes": {
+      "source": "github:saberzero1/quartz-themes",
+      "resolved": "https://github.com/saberzero1/quartz-themes.git",
+      "commit": "44dd81094c0dd982b67f93d91ef8c80da3f583e6",
+      "installedAt": "2026-09-05T13:07:11.508Z"
+    },
+    "tui": {
+      "source": "github:quartz-community/tui",
+      "resolved": "https://github.com/quartz-community/tui.git",
+      "commit": "d1d51a626ef84a6f4d0933cce2b834a9db92282b",
+      "installedAt": "2026-08-07T20:32:10.482Z"
+    }
+  }
+}
