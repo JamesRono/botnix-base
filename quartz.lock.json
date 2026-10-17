@@ -1,6 +1,12 @@
 {
   "version": "1.0.0",
   "plugins": {
+    "quartz-hero-banner": {
+      "source": "github:riberoc/quartz-hero-banner",
+      "resolved": "https://github.com/riberoc/quartz-hero-banner.git",
+      "commit": "bd7b40f4ba0400a1001ef6f9063ca89ac21d216b",
+      "installedAt": "2026-10-17T12:40:43.938Z"
+    },
     "quartz-themes": {
       "source": "github:saberzero1/quartz-themes",
       "resolved": "https://github.com/saberzero1/quartz-themes.git",
