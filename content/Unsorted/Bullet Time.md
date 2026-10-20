@@ -1,3 +1,7 @@
+---
+tags:
+  - project
+---
 #project
 ~ A Blender Add on I've been working for CS50x
 

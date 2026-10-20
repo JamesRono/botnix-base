@@ -1,3 +1,49 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+/* Balanced Pinterest-Style Masonry Image Grid */
+body .image-grid {
+  column-width: 180px !important; /* Narrower columns pack photos much closer together */
+  column-gap: 12px !important;
+  width: 100% !important;
+
+  p {
+    margin: 0 !important;
+    display: contents !important;
+  }
+
+  img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important; /* Lets photos use their natural aspect ratios without artificial caps */
+    border-radius: 8px !important;
+    margin-bottom: 12px !important;
+    break-inside: avoid !important; /* Prevents photos from breaking awkwardly across columns */
+    display: block !important;
+  }
+}
+
+
+
+
+
+
+// /* Remove box/pill background from internal links */
+// a.internal {
+//   background-color: transparent !important;
+//   padding: 0 !important;
+//   border-radius: 0 !important;
+// }
+
+
+// /* Force all regular and internal links to use your secondary color */
+// body div.page a,
+// body div.page a.internal,
+// body div.page a.external {
+//   color: var(--secondary) !important;
+// }
+//
+// /* Force standard body text color */
+// body, p, li {
+//   color: var(--darkgray) !important;
+// }

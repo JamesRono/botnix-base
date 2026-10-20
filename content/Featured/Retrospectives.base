@@ -4,4 +4,3 @@ views:
     filters:
       and:
         - file.hasTag("reflection")
-        - file.inFolder("Published")

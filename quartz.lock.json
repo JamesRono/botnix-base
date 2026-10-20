@@ -1,18 +1,6 @@
 {
   "version": "1.0.0",
   "plugins": {
-    "quartz-hero-banner": {
-      "source": "github:riberoc/quartz-hero-banner",
-      "resolved": "https://github.com/riberoc/quartz-hero-banner.git",
-      "commit": "bd7b40f4ba0400a1001ef6f9063ca89ac21d216b",
-      "installedAt": "2026-10-17T12:40:43.938Z"
-    },
-    "quartz-themes": {
-      "source": "github:saberzero1/quartz-themes",
-      "resolved": "https://github.com/saberzero1/quartz-themes.git",
-      "commit": "44dd81094c0dd982b67f93d91ef8c80da3f583e6",
-      "installedAt": "2026-09-05T13:07:11.508Z"
-    },
     "tui": {
       "source": "github:quartz-community/tui",
       "resolved": "https://github.com/quartz-community/tui.git",

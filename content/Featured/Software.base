@@ -1,0 +1,18 @@
+formulas:
+  Untitled: ""
+views:
+  - type: cards
+    name: View
+    filters:
+      and:
+        - file.hasTag("project")
+    groupBy:
+      property: file.tags
+      direction: ASC
+    order:
+      - file.name
+      - tags
+      - file.size
+      - file.backlinks
+    markers: number
+    indentProperties: true

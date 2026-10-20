@@ -1,0 +1,9 @@
+views:
+  - type: list
+    name: View
+    filters:
+      or:
+        - file.hasTag("essay")
+    cardSize: 320
+    imageFit: contain
+    imageAspectRatio: 1.15
